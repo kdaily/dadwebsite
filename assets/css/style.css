@@ -14,13 +14,14 @@
     /* width: auto; */
     overflow: hidden;
     margin-bottom: 0px;
-    background: #fff;
+    background: #DDD;
 
 }
 
 .photo_info p {
     font-size: 1em;
     font-style: italic;
+    padding-bottom: 0px;
 }
 
 .photo_body {
