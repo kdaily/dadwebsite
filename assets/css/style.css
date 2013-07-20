@@ -1,0 +1,38 @@
+.photo {
+    /* width: 300px; */
+    padding: 4px;
+    margin-bottom: 3px;
+    background: #00F;
+    
+    /* min-height:275px; */
+    /* height:auto !important; */
+    /* height:275px; */
+
+} 
+
+.photo_info {
+    /* width: auto; */
+    overflow: hidden;
+    margin-bottom: 0px;
+    background: #fff;
+
+}
+
+.photo_info p {
+    font-size: 1em;
+}
+
+.photo_body {
+    /* width: auto; */
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding: 3px;
+    background: #000;
+    color: red;
+    min-height:200px;
+    height:auto !important;
+    height:100px;
+
+}
+
+
