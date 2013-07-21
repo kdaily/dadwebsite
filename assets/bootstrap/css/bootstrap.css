@@ -223,7 +223,8 @@ textarea {
 
 body {
   margin: 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-size: 14px;
   line-height: 20px;
@@ -740,7 +741,8 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  /* font-family: inherit; */
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -4520,7 +4522,9 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4595,6 +4599,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+
   position: relative;
   left: 0;
   display: block;
@@ -6125,7 +6131,7 @@ a.badge:focus {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #ddd;
+  background-color: #fff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
