@@ -73,9 +73,9 @@ zp_load_album($albumName);
                 <a href="#" class="dropdown-toggle"
                 data-toggle="dropdown">Portfolio<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="new.html">New</a></li>
-                  <li><a href="bw.html">Black and White</a></li>
-                  <li><a href="color.html">Color</a></li>
+                  <li><a href="new.php">New</a></li>
+                  <li><a href="bw.php">Black and White</a></li>
+                  <li><a href="color.php">Color</a></li>
                 </ul>
               </li>
             </ul>
@@ -90,7 +90,7 @@ zp_load_album($albumName);
   <?php while (next_image(true)): ?>
 
 
-	  <?php if (($imgcount % 3) == 0) {echo " <div class=\"row\">";}?>
+	  <?php if (($imgcount % 4) == 0) {echo " <div class=\"row\">";}?>
 	     
 	
 	<div class="span3">
@@ -107,13 +107,13 @@ zp_load_album($albumName);
 	</div>
 
 
-      <?php if ((($imgcount + 1) % 3) == 0) {echo " </div>";}?>
+      <?php if ((($imgcount + 1) % 4) == 0) {echo " </div>";}?>
 
      <?php $imgcount += 1; ?>
 
     <?php endwhile; ?>
 
-      <?php if (($imgcount % 3) != 0) {echo " </div>";}?>
+      <?php if (($imgcount % 4) != 0) {echo " </div>";}?>
 
       <hr>
 
