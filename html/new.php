@@ -1,7 +1,7 @@
 <?php
   // force UTF-8
-define('SERVERPATH','../../zenphoto'); 
-define('WEBPATH','../../zenphoto/'); 
+define('SERVERPATH','./photo/'); 
+define('WEBPATH','./photo/'); 
 
 require_once(SERVERPATH.'/zp-core/template-functions.php');
 require_once(SERVERPATH.'/zp-core/functions-controller.php');
@@ -96,9 +96,9 @@ zp_load_album($albumName);
 	<div class="span3">
 	  <div class="photo">
 	    <div class="photo_body">
-	    <!-- <a href="<?php echo html_encode(getImageLinkURL());?>" title="<?php echo getBareImageTitle();?>"> -->
+	    <a href="<?php echo html_encode(getImageLinkURL());?>" title="<?php echo getBareImageTitle();?>">
 	    <?php printCustomSizedImage(getImageTitle(), 300); ?>
-	    <!-- </a> -->
+	    </a>
             </div>
 	    <div class="photo_info">
               <p><?php printImageDesc(); ?></p>
