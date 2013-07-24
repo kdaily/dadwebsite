@@ -1,0 +1,95 @@
+.photo {
+    /* width: 300px; */
+    padding: 4px;
+    margin-bottom: 3px;
+    background: #fff;
+    
+    /* min-height:275px; */
+    /* height:auto !important; */
+    /* height:275px; */
+
+} 
+
+.photo_info {
+    /* width: auto; */
+    overflow: hidden;
+    margin-bottom: 0px;
+    background: #fff;
+
+}
+
+.photo_info p {
+    font-size: 1em;
+    font-style: italic;
+    padding-bottom: 0px;
+}
+
+.photo_body {
+
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: #fff;
+
+    min-height:100px;
+    /* height:auto !important; */
+    height:200px;
+
+}
+
+.indexitem {
+    /* width: 300px; */
+    padding: 3px;
+    margin-bottom: 1px;
+    background: #fff;
+    
+    /* min-height:275px; */
+    /* height:auto !important; */
+    /* height:275px; */
+
+} 
+
+.indexitem_header {
+    /* width: 300px; */
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    background: #fff; 
+    /* min-height:275px; */
+    /* height:auto !important; */
+    /* height:275px; */
+
+} 
+
+.indexitem_header h3 {
+    /* width: 300px; */
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    /* min-height:275px; */
+    /* height:auto !important; */
+    /* height:275px; */
+
+} 
+
+.indexitem_photo {
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: #fff;
+
+    min-height:200px;
+    /* height:auto !important; */
+    height:250px;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.indexitem_photo:hover {
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+
+
